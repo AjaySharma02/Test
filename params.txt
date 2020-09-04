@@ -1,3 +1,2 @@
-NAME=ajaySHarma
-Branch=master
+CHECKOUT_BRANCH=master
 VERSION=1.2.101.5
