@@ -1,5 +1,5 @@
 CHECKOUT_BRANCH=master
-APOLLO=Vizio_linux_t-apollo-dev-1901-1937-2-001-10-001-645-5691-fcs-mtk71193-36
+APOLLO=Vizio_linux_t-apollo-dev-1901-1937-2-001-10-001-645-5691-fcs-mtk71193-361
 BRANCH_TAG=3.0
 
 
