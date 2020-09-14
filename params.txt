@@ -1,3 +1,4 @@
 
 BLUETOOTH=bluetooth.MTK5597-3.0.328.0.zip
+A
 
