@@ -1,0 +1,18 @@
+{
+  "BLUETOOTH": [
+  {
+  "version": "3.0.324.0",
+  "artifactoryPath": "vizio-dallas-test-ajay/test/",
+  "tag1": "latest",
+  "tag2": "Fur 3.0"
+  }
+], 
+  "CONJURE": [
+  {
+  "version": "3.0.325.0",
+  "artifactoryPath": "vizio-dallas-test-ajay/test/",
+  "tag1": "latest",
+  "tag2": "Fur 3.0"
+  }
+]
+}
