@@ -6,7 +6,7 @@
          	"chipset":"15x",
          	"model_group":"MG15X-",
          	"release_version":"FUR3.0",
-         	"manifest_git_branch":"FUR3.0-15x",
+         	"manifest_git_branch":"FUR3.0-15b",
          	
          	"base_firmware_release_artifactory_path": "vizio-dallas-test-ajay/mtk-to-vizio/firmware/15x/",
          	"vizio_repack_firmware_release_artifactory_path": "vizio-dallas-test-ajay/firmware/repackage/mtk/15x/",
