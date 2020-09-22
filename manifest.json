@@ -2,15 +2,15 @@
 	"firmware_details":[
 		{
 			"soc":"MTK",
-         	"model":"5581",
-         	"chipset":"15x",
-         	"model_group":"MG15X-",
+         	"model":"SX7B",
+         	"chipset":"SX7B",
+         	"model_group":"SX7B-",
          	"release_version":"FUR3.0",
-         	"manifest_git_branch":"FUR3.0-15x",
+         	"manifest_git_branch":"FUR3.0-SX7B",
          	
-         	"base_firmware_release_artifactory_path": "vizio-dallas-test-ajay/mtk-to-vizio/firmware/15x/",
-         	"vizio_repack_firmware_release_artifactory_path": "vizio-dallas-test-ajay/firmware/repackage/mtk/15x/",
-         	"vizio_repack_module_upload_artifactory_path": "vizio-dallas-test-ajay/firmware/repack-modules/mtk/15x/",
+         	"base_firmware_release_artifactory_path": "vizio-dallas-test-ajay/vs-to-vizio/firmware/sx7b/",
+         	"vizio_repack_firmware_release_artifactory_path": "vizio-dallas-test-ajay/firmware/repackage/vs/sx7b/",
+         	"vizio_repack_module_upload_artifactory_path": "vizio-dallas-test-ajay/firmware/repack-modules/vs/sx7b/",
          	
          	
 		 	
@@ -23,36 +23,35 @@
    
    	{
    		 "module_name":"NDK",
-         "module_version_release":"MTKA-1.0.136.0.tar",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/ndk/mtk5581/",
-         "apollo_used_for_compilation":"Vizio_linux_t-apollo-mp-1501-1638-3-001-33-002-63-001-723",
+         "module_version_release":"SX7B-1.0.136.0.tar",
+         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/ndk/vssx7b/",
          "module_owner":"wahib.alrofati@vizio.com",
          "source_code":[
             {
                "git_repo_name":"vizio_ndk_implementation",
                "git_repo_path":"https://github.com/BuddyTV/vizio_ndk_implementation",
-               "git_tag":"1.0.136.0",
+               "git_tag":"ndk-VS-SX7AB-1.0.136.0",
                "git_branch":"FUR-3.0",
                "description":""
             },
             {
                "git_repo_name":"vizio_ndk_bsp",
                "git_repo_path":"https://github.com/BuddyTV/vizio_ndk_bsp",
-               "git_tag":"1.0.136.0",
+               "git_tag":"ndk-VS-SX7AB-1.0.136.0",
                "git_branch":"FUR-3.0",
                "description":""
             },
             {
                "git_repo_name":"ndk",
                "git_repo_path":"https://github.com/BuddyTV/vizio_ndk_implementation/tree/master/ndk",
-               "git_tag":"1.0.136.0",
+               "git_tag":"ndk-VS-SX7AB-1.0.136.0",
                "git_branch":"FUR-3.0",
                "description":"submodule for vizio_ndk_implementation"
             },
             {
                "git_repo_name":"browser_ctrl",
                "git_repo_path":"https://github.com/BuddyTV/vizio_ndk_implementation/tree/master/src/MTK/linux",
-               "git_tag":"1.0.136.0",
+               "git_tag":"ndk-VS-SX7AB-1.0.136.0",
                "git_branch":"FUR-3.0",
                "description":"submodule for vizio_ndk_implementation"
             }
@@ -61,9 +60,9 @@
             "git_path_for_buildscript":"https://github.com/BuddyTV/vizio_ndk_implementation/blob/master/vizio_ndk_implementation_checkout_.sh",
             "description_for_build_script":"ndk is compiled using above build script",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/viziondk/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/viziondk/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "viziondk-mtk.tgz"
+            "output_name_of_the_rearranged_module": "viziondk-vs.tgz"
             
          },
          "dependent_pkgs":[
@@ -76,8 +75,7 @@
       {
          "module_name":"VIZIOS",
          "module_version_release":"ViziOS-FUR3.0-b5.tgz",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/vizioos/mtk/5581/",
-         "apollo_used_for_compilation":"",
+         "module_version_release_artifactory_path":"vizio-dallas-other-files/vizioOS/vs/sx7b/",
          "module_owner":"justin.dick@vizio.com",
          "source_code":[
             {
@@ -92,9 +90,9 @@
          	"git_path_for_buildscript":"https://github.com/BuddyTV/platform/blob/master/Makefile",
             "description_for_build_script":"platform is compiled using above build script",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/vizios/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/vizios/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "vizios-mtk.tgz"
+            "output_name_of_the_rearranged_module": "vizios-vs.tgz"
          },
          "dependent_pkgs":[
          
@@ -105,15 +103,14 @@
      
      {
      	 "module_name":"LOGGER",
-         "module_version_release":"Logger.MTK2019-2.0.24.0.tgz",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/logger/mtk/2019/",
-         "apollo_used_for_compilation":"Vizio_linux_t-apollo-mp-1501-1638-3-001-33-002-63-001-660",
+         "module_version_release":"Logger.VS-2.0.14.0.tgz",
+         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/logger/vs/",
          "module_owner":"wahib.alrofati@vizio.com",
          "source_code":[
             {
                "git_repo_name":"logger",
                "git_repo_path":"https://github.com/BuddyTV/logger",
-               "git_tag":"Logger.MTK2019-2.0.24.0",
+               "git_tag":"Logger.VS-2.0.14.0",
                "git_branch":"master",
                "description":""
                
@@ -136,16 +133,15 @@
           
       {
       	 "module_name":"VZSERVICES",
-         "module_version_release":"vzs.MTK2019-2.0.227.0.tgz",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/vzservices/mtk/2019/",
-         "apollo_used_for_compilation":"Vizio_linux_t-apollo-mp-1501-1638-3-001-33-002-63-001-660",
+         "module_version_release":"vzs.VS-2.0.210.0.tgz",
+         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/vzservices/vs/",
          "module_owner":"mandar.dhonsale@vizio.com",
          "source_code":[
             {
                "git_repo_name":"VZServices",
                "git_repo_path":"https://github.com/BuddyTV/VZServices",
                "git_tag":"",
-               "git_branch":"IMM_2020",
+               "git_branch":"IMM",
                "description":""
             }
          ],
@@ -166,9 +162,8 @@
      
       {
       	 "module_name":"CONJURE",
-         "module_version_release":"conjure.MTKA-3.0.335.0.zip",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/conjure/mtk/2019/5581/",
-         "apollo_used_for_compilation":"Vizio_linux_t-apollo-dev-1501-1638-3-001-33-002-63-001-553-sprint1-7-mtk71193-14",
+         "module_version_release":"conjure.SX7B-3.0.361.3.img",
+         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/conjure/vs/sx7b/",
          "module_owner":"wahib.alrofati@vizio.com",
          "source_code":[
             {
@@ -225,9 +220,9 @@
          	"git_path_for_buildscript":"https://github.com/BuddyTV/conjure-checkout/blob/master/checkout_conjure.sh",
             "description_for_build_script":"conjure is checked out using above build script",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/conjure/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/conjure/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "conjure-mtk.tgz"
+            "output_name_of_the_rearranged_module": "conjure-vs.tgz"
          },
          "dependent_pkgs":[
          "bluetooth", "conjure", "logger", "vizios", "vzservices"
@@ -239,15 +234,14 @@
       {
       	 "module_name":"BLUETOOTH",
          "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/bluetooth/mtk/2019/5581/",
-         "apollo_used_for_compilation":"Vizio_linux_t-apollo-mp-1501-1550-5-001-15-002-760",
+         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/bluetooth/vs/sx7b/",
          "module_owner":"rammohan.somalraju@vizio.com",
          "source_code":[
             {
                "git_repo_name":"btsound",
                "git_repo_path":"https://github.com/BuddyTV/btsound",
-               "git_tag":"3.0.325.0",
-               "git_branch":"FUR-3.1-mtk",
+               "git_tag":"",
+               "git_branch":"FUR-3.1-vs",
                "description":""
             }
          ],
@@ -255,9 +249,9 @@
          	"git_path_for_buildscript":"https://github.com/BuddyTV/btsound/blob/master/bt-build.sh",
             "description_for_build_script":"bluetooth is checked out using above build script",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/bluetooth/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/bluetooth/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "bt-mtk.tgz"
+            "output_name_of_the_rearranged_module": "bt-vs.tgz"
          },
          "dependent_pkgs":[
          "ndk"
@@ -268,9 +262,8 @@
           
       {
       	 "module_name":"SCPL",
-         "module_version_release":"RELEASE-MTK-2031.0008.tar.gz",
-         "module_version_release_artifactory_path":"vizio-dallas-internal-seattle/seattle-to-dallas/scpl/MTK/",
-         "apollo_used_for_compilation":"",
+         "module_version_release":"RELEASE-VS-2031.0010.tar.gz",
+         "module_version_release_artifactory_path":"vizio-dallas-internal-seattle/seattle-to-dallas/scpl/VS/",
          "module_owner":"west.latta@vizio.com",
          "source_code":[
             {
@@ -285,9 +278,9 @@
          	"git_path_for_buildscript":"",
             "description_for_build_script":"",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/scpl/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/scpl/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "scpl-mtk.tgz"
+            "output_name_of_the_rearranged_module": "scpl-vs.tgz"
          },
          "dependent_pkgs":[
         
@@ -298,9 +291,8 @@
 
     {
       	 "module_name":"SC_ASSETS",
-         "module_version_release":"scfs-drop-33.5.zip",
-         "module_version_release_artifactory_path":"vizio-dallas-internal-seattle/seattle-to-dallas/sc-assets/MTK/",
-         "apollo_used_for_compilation":"",
+         "module_version_release":"scfs-drop-prod-v34.5.zip",
+         "module_version_release_artifactory_path":"vizio-dallas-internal-seattle/seattle-to-dallas/sc-assets/VS/",
          "module_owner":"west.latta@vizio.com",
          "source_code":[
             {
@@ -315,68 +307,26 @@
          	"git_path_for_buildscript":"",
             "description_for_build_script":"",
             "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/sc_assets/mtk/",
+            "git_repo_path_for_rearranging_module": "pkg/sc_assets/vs/",
             "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "sc_assets-mtk.tgz"
+            "output_name_of_the_rearranged_module": "sc_assets-vs.tgz"
          },
          "dependent_pkgs":[
         
          ]
-    },
+    }
     
     
     
-    {
-      	 "module_name":"SYM_READER",
-         "module_version_release":"sym_reader-mtk-aug182020.tgz",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/symreader/mtk/5581/",
-         "apollo_used_for_compilation":"",
-         "module_owner":"mandar.dhonsale@vizio.com",
-         "source_code":[
-            {
-               "git_repo_name":"",
-               "git_repo_path":"",
-               "git_tag":"",
-               "git_branch":"",
-               "description":""
-            }
-         ],
-         "environment_setup":{
-         	"git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "NULL",
-            "git_rearranging_module_repack_script_name": "NULL",
-            "output_name_of_the_rearranged_module": "NULL"
-         },
-         "dependent_pkgs":[
-        
-         ]
-    }       
    ],
    
    
    
    "temp_soc_pkgs":[
-      {
-      
-      	 "module_name":"LIBMTKAPP",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/libmtkapp/mtk/15x/",
-         "module_requester":"NULL",
-         "environment_setup":{
-         	"git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/libmtkapp/mtk/",
-            "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "libmtkapp-mtk.tgz"
-         }
-      },
 	  
 	  {
          "module_name":"OTHER_FILE",
-         "module_version_release":"mtk-15x-launch_tvis.tgz",
+         "module_version_release":"delete-bluetooth.tgz",
          "module_version_release_artifactory_path":"vizio-dallas-other-files/other-files/",
 		 "module_requester":"NULL",
          "environment_setup":{
@@ -389,84 +339,6 @@
          }
         },
 		
-		{
-         "module_name":"OTHER_FILE_TWO",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/other-files/",
-         "module_requester":"NULL",
-         "environment_setup":{
-            "git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "NULL",
-            "git_rearranging_module_repack_script_name": "NULL",
-            "output_name_of_the_rearranged_module": "NULL"
-         }
-        },
-		
-		{
-         "module_name":"BROWSER_CTRL",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/browserctrl/mtk/15x/",
-         "module_requester":"NULL",
-         "environment_setup":{
-            "git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "pkg/browser_ctrl/mtk/",
-            "git_rearranging_module_repack_script_name": "make-pkg.sh",
-            "output_name_of_the_rearranged_module": "browser_ctrl-mtk.tgz"
-         }
-       },
-	   
-	   {
-         "module_name":"CA_CERTIFICATE",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-jenkins-build-results-prod/ndk-ca-certificate/mtk2019/1.1.144.0-certs/",
-         "module_requester":"NULL",
-         "environment_setup":{
-            "git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-			"git_repo_path_for_rearranging_module": "pkg/ca-cert/mtk/",
-            "git_rearranging_module_repack_script_name": "make-pkg",
-            "output_name_of_the_rearranged_module": "ca-cert-mtk.tgz"
-         }
-       },
-	   
-	   {
-         "module_name":"NO_STORE_DEMO",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/no-store-demo/mtk/15x/",
-         "module_requester":"NULL",
-         "environment_setup":{
-            "git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "NULL",
-            "git_rearranging_module_repack_script_name": "NULL",
-            "output_name_of_the_rearranged_module": "NULL"
-         }
-       },
-	   
-	   {
-         "module_name":"NO_CONJURE",
-         "module_version_release":"NULL",
-         "module_version_release_artifactory_path":"vizio-dallas-other-files/no-conjure/mtk/",
-         "module_requester":"NULL",
-         "environment_setup":{
-            "git_path_for_buildscript":"",
-            "description_for_build_script":"",
-            "git_repo_path_for_repack_firmware":"https://github.com/BuddyTV/firmware-repackage",
-            "git_repo_path_for_rearranging_module": "NULL",
-            "git_rearranging_module_repack_script_name": "NULL",
-            "output_name_of_the_rearranged_module": "NULL"
-         }
-       },
-		
-		
    ]
 }
 	   
-
-
