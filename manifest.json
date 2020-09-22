@@ -4,7 +4,7 @@
 			"soc":"MTK",
          	"model":"5691",
          	"chipset":"30x",
-         	"model_group":"MG30X-",
+         	"model_group":"MT5691-",
          	"release_version":"FUR3.0",
          	"manifest_git_branch":"FUR3.0-30",
          	
