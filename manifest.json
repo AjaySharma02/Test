@@ -6,7 +6,7 @@
          	"chipset":"SX7B",
          	"model_group":"SX7B-",
          	"release_version":"FUR3.0",
-         	"manifest_git_branch":"FUR3.0-SX7B",
+         	"manifest_git_branch":"FUR3.0-SX7B1",
          	
          	"base_firmware_release_artifactory_path": "vizio-dallas-test-ajay/vs-to-vizio/firmware/sx7b/",
          	"vizio_repack_firmware_release_artifactory_path": "vizio-dallas-test-ajay/firmware/repackage/vs/sx7b/",
