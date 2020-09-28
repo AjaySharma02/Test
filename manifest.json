@@ -92,7 +92,7 @@
     },
     {
       "module_name": "LOGGER",
-      "module_version_release": "124.tgz",
+      "module_version_release": "456.tgz",
       "module_version_release_artifactory_path": "vizio-dallas-jenkins-build-results-prod/logger/mtk/2019/",
       "apollo_used_for_compilation": "Vizio_linux_t-apollo-mp-1501-1638-3-001-33-002-63-001-660",
       "module_owner": "wahib.alrofati@vizio.com",
@@ -333,7 +333,7 @@
     },
     {
       "module_name": "OTHER_FILE",
-      "module_version_release": "123",
+      "module_version_release": "789",
       "module_version_release_artifactory_path": "vizio-dallas-other-files/other-files/",
       "module_requester": "NULL",
       "environment_setup": {
