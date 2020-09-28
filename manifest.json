@@ -333,7 +333,7 @@
     },
     {
       "module_name": "OTHER_FILE",
-      "module_version_release": "890",
+      "module_version_release": "NULL",
       "module_version_release_artifactory_path": "vizio-dallas-other-files/other-files/",
       "module_requester": "NULL",
       "environment_setup": {
