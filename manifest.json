@@ -215,7 +215,7 @@
     },
     {
       "module_name": "BLUETOOTH",
-      "module_version_release": "bluetooth.4.5.9.zip",
+      "module_version_release": "bluetooth.33.33.33.zip",
       "module_version_release_artifactory_path": "vizio-dallas-jenkins-build-results-prod/bluetooth/mtk/2019/5581/",
       "apollo_used_for_compilation": "Vizio_linux_t-apollo-mp-1501-1550-5-001-15-002-760",
       "module_owner": "rammohan.somalraju@vizio.com",
