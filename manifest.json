@@ -210,7 +210,7 @@
     },
     {
       "module_name": "BLUETOOTH",
-      "module_version_release": "bluetooth.33.33.32.zip",
+      "module_version_release": "bluetooth.33.33.77.zip",
       "module_version_release_artifactory_path": "vizio-dallas-jenkins-build-results-prod/bluetooth/vs/sx7b/",
       "module_owner": "rammohan.somalraju@vizio.com",
       "source_code": [
