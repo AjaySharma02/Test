@@ -10,7 +10,7 @@
          	
          	"base_firmware_release_artifactory_path": "vizio-dallas-test-ajay/vs-to-vizio/firmware/sx7b/",
          	"vizio_repack_firmware_release_artifactory_path": "vizio-dallas-test-ajay/firmware/repackage/vs/sx7b/",
-         	"vizio_repack_module_upload_artifactory_path": "vizio-dallas-test-ajay/firmware/repack-modules/vs/sx7b/",
+         	"vizio_repack_module_upload_artifactory_path": "vizio-dallas-test-ajay/firmware/repack-modules/vs/sx7b/"
          	
          	
 		 	
@@ -337,7 +337,7 @@
             "git_rearranging_module_repack_script_name": "NULL",
             "output_name_of_the_rearranged_module": "NULL"
          }
-        },
+        }
 		
    ]
 }
