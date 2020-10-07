@@ -67,7 +67,7 @@
     },
     {
       "module_name": "VIZIOS",
-      "module_version_release": "ViziOS-FUR3.0-b5.tgz",
+      "module_version_release": "mtk5597-0.2.338.20-5eb6385-847dc98",
       "module_version_release_artifactory_path": "vizio-dallas-jenkins-build-results-prod/vizioos/mtk/5581/",
       "apollo_used_for_compilation": "",
       "module_owner": "justin.dick@vizio.com",
