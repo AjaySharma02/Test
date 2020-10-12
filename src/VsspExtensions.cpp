@@ -2394,16 +2394,6 @@ static void* VsspExt_Event_Ipc_Therad(void* arg)
                                || uri == "tv_settings/audio/tv_speakers"
                                || uri == "tv_settings/audio/mute") {
                         PyObject_CallFunction(g_callback_event, "{s:s, s:s}", "URI", uri.c_str(), "VALUE", result["VALUE"].asString().c_str());
-                    } else if (uri == "app/zoom/enabled"
-                               || uri == "state/device/power_mode"
-                               || uri == "tv_settings/cast/state"
-                               || uri == "app/tts/enabled"
-                               || uri == "tv_settings/closed_captions/closed_captions_enabled"
-                               || uri == "app/zoom/enabled"
-                               || uri == "tv_settings/cast/tos_accepted"
-                               || uri == "tv_settings/network/connection_status"
-                               || uri == "tv_settings/channels/channel_scan_state") {
-                        PyObject_CallFunction(g_callback_event, "{s:s, s:i}", "URI", uri.c_str(), "VALUE", result["VALUE"].asInt());
                     } else if (uri == "uli/update_status") {
                         PyObject_CallFunction(g_callback_event, "{s:s, s:{s:i, s:i}}", "URI", uri.c_str(), "VALUE", "STATUS", result["STATUS"].asInt(), "PERCENT_COMPLETE", result["PERCENT_COMPLETE"].asInt());
                     } else if (uri == "uli/available_update_info") {

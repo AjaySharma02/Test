@@ -386,7 +386,6 @@ namespace uri {
         { "accessibility","talkback" },
         { "accessibility","speech_rate" },
         { "accessibility","zoom_mode" },
-        { "accessibility","video_description" },
         { "system_information" , "tv_information" , "audio_type_out" },
         { "system_information" , "network_information" , "wifi_module" },
         { "system_information" , "tv_information" , "airplay_version" },
